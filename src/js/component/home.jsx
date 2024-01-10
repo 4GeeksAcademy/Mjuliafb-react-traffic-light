@@ -3,22 +3,20 @@ import React, { useState } from "react";
 const Home = () => {
 
 	const OpacidadBoton = () => {
-		let changeOpacity = opacidadBoton === 0.4 ? 1 : 0.4;
-
 		const [opacidadBoton, setOpacidadBoton] = useState(0.4);
 		const [opacidadBoton2, setOpacidadBoton2] = useState(0.4);
 		const [opacidadBoton3, setOpacidadBoton3] = useState(0.4);
 
 		const cambiarOpacidad = () => {
-			setOpacidadBoton(changeOpacity);
+			setOpacidadBoton(opacidadBoton === 0.4 ? 1 : 0.4);
 		};
 
 		const cambiarOpacidad2 = () => {
-			setOpacidadBoton2(changeOpacity);
+			setOpacidadBoton2(opacidadBoton2 === 0.4 ? 1 : 0.4);
 		};
 
 		const cambiarOpacidad3 = () => {
-			setOpacidadBoton3(changeOpacity);
+			setOpacidadBoton3(opacidadBoton3 === 0.4 ? 1 : 0.4);
 		};
 
 		return (
