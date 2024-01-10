@@ -10,3 +10,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+  
+.container {
+    justify-content: center;
+    align-content: center;
+}
+  .button-container {
+    display: inline-block;
+    margin: 10px; /* Ajusta el margen según tus necesidades */
+  }
+  
+  button {
+    width: 50px; /* Ajusta el ancho según tus necesidades */
+    height: 50px; /* Ajusta la altura según tus necesidades */
+    /* Otros estilos de diseño según tus necesidades */
+  }
+  
+  .yellow {
+    background-color: yellow;
+    opacity: 0.4;
+  }
+  
+  .blue {
+    background-color: blue;
+    opacity: 0.4;
+  }
+  
+  .red {
+    background-color: red;
+    opacity: 0.4;
+  }
+
+  .backButton{
+    background-color: black;
+    width: 70px;
+    height: 70px;
+
+  }
