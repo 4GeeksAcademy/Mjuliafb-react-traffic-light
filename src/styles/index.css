@@ -17,13 +17,13 @@
 }
   .button-container {
     display: inline-block;
-    margin: 10px; /* Ajusta el margen según tus necesidades */
+    margin: 10px; 
   }
   
   button {
-    width: 50px; /* Ajusta el ancho según tus necesidades */
-    height: 50px; /* Ajusta la altura según tus necesidades */
-    /* Otros estilos de diseño según tus necesidades */
+    width: 50px; 
+    height: 50px;
+    margin:10px;
   }
   
   .yellow {
@@ -46,4 +46,10 @@
     width: 70px;
     height: 70px;
 
+  }
+
+  .palito {
+    background-color: black;
+    width: 10px;
+    height: 120px;
   }

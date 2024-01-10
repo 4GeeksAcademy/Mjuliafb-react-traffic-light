@@ -1,25 +1,29 @@
 import React, { useState } from "react";
 
 const Home = () => {
+
 	const OpacidadBoton = () => {
+		let changeOpacity = opacidadBoton === 0.4 ? 1 : 0.4;
+
 		const [opacidadBoton, setOpacidadBoton] = useState(0.4);
 		const [opacidadBoton2, setOpacidadBoton2] = useState(0.4);
 		const [opacidadBoton3, setOpacidadBoton3] = useState(0.4);
 
 		const cambiarOpacidad = () => {
-			setOpacidadBoton(opacidadBoton === 0.4 ? 1 : 0.4);
+			setOpacidadBoton(changeOpacity);
 		};
 
 		const cambiarOpacidad2 = () => {
-			setOpacidadBoton2(opacidadBoton2 === 0.4 ? 1 : 0.4);
+			setOpacidadBoton2(changeOpacity);
 		};
 
 		const cambiarOpacidad3 = () => {
-			setOpacidadBoton3(opacidadBoton3 === 0.4 ? 1 : 0.4);
+			setOpacidadBoton3(changeOpacity);
 		};
 
 		return (
 			<div className="container text-center">
+				<div className="palito"></div>
 				<div className="backButton">
 					<button
 						className="yellow"
