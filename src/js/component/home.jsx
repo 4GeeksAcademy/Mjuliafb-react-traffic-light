@@ -13,19 +13,19 @@ const Home = () => {
       <div className="palito"></div>
       <div className="backButton">
         <OpacidadBoton
+          color="red"
+          initialOpacidad={0.4}
+          opacidadActiva={opacidadActiva}
+          cambiarOpacidad={cambiarOpacidad}
+        />
+        <OpacidadBoton
           color="yellow"
           initialOpacidad={0.4}
           opacidadActiva={opacidadActiva}
           cambiarOpacidad={cambiarOpacidad}
         />
         <OpacidadBoton
-          color="blue"
-          initialOpacidad={0.4}
-          opacidadActiva={opacidadActiva}
-          cambiarOpacidad={cambiarOpacidad}
-        />
-        <OpacidadBoton
-          color="red"
+          color="green"
           initialOpacidad={0.4}
           opacidadActiva={opacidadActiva}
           cambiarOpacidad={cambiarOpacidad}
